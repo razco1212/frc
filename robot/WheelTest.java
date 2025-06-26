@@ -15,7 +15,7 @@ public class WheelTest {
         }
 
 
-        System.out.println("\n=================Linears Speeds================");
+        System.out.println("\n=================Linear Speeds================");
         for(Wheel w : wheels) {
             System.out.println(w.Name() + " linear speed = " + w.getLinearSpeed() + " m/s");
         }
